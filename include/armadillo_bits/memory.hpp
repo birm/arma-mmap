@@ -9,6 +9,16 @@
 //! \addtogroup memory
 //! @{
 
+#include <fcntl.h> // for now; probably want to replace
+#include <unistd.h> // same
+#include <cerrno>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
 
 class memory
   {
